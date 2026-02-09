@@ -18,6 +18,8 @@ const getallusers = async(req,res)=>{
 }
 
 
+
+
 const getOneUser = async(req,res)=>{
     try {
         const id =  req.params.id;
